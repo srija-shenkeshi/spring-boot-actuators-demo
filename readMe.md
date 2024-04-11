@@ -1,10 +1,10 @@
-**Customer Service API**
+##Customer Service API
 
 This README file provides an overview of the Customer Service API, including the Actuator endpoints for monitoring and managing the application.
 
 
 
-### Spring Boot Actuators Integration:
+***Spring Boot Actuators Integration:***
 
 The Customer Service API is integrated with Spring Boot Actuators, which provides endpoints for monitoring and managing the application. Here are some key points about Actuators:
 
@@ -13,7 +13,7 @@ The Customer Service API is integrated with Spring Boot Actuators, which provide
 - **Endpoint Exposure:** All Actuator endpoints are exposed over HTTP by including all endpoints (`management.endpoints.web.exposure.include=*`).
 
 - **Health Endpoint Details:** Health endpoint details are set to always show (`management.endpoint.health.show-details=always`), providing comprehensive health information about the application.
-- 
+ 
 ### Actuator Endpoints:
 
 Actuator endpoints provide various information about the application's health, metrics, environment, and more. The Actuator endpoints are accessible via HTTP and provide valuable insights into the application's internal state and performance.
