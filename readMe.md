@@ -1,4 +1,4 @@
-##Customer Service API
+### Customer Service API
 
 This README file provides an overview of the Customer Service API, including the Actuator endpoints for monitoring and managing the application.
 
